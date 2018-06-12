@@ -5,7 +5,7 @@ body{
 }
 
 #body{
-    background-image: url("https://images.pexels.com/photos/863950/pexels-photo-863950.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-image: url("https://fortunedotcom.files.wordpress.com/2018/06/gettyimages-971755028.jpg");
     background-color: rgb(255, 255, 255);
     background-position: center;
     background-size: cover;
@@ -23,6 +23,7 @@ body{
 
 #mobile-content{
     margin-top: 2px;
+    min-height: 100hmin;
 }
 
 footer{
@@ -47,7 +48,15 @@ footer{
     }
 
     footer{
-        position: fixed;
+        position: relative;
+    }
+
+    .small-left{
+        text-align: left;
+    }
+
+    .med-large-right{
+        text-align: right;
     }
 
   }
